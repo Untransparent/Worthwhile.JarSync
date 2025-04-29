@@ -3,3 +3,18 @@
 ################################################################################
 
 /.vs
+/Worthwhile.JarSync.Common.EmailService.Interfaces/bin
+/Worthwhile.JarSync.Common.EmailService.Interfaces/obj
+/Worthwhile.JarSync.CommonConfiguration/bin
+/Worthwhile.JarSync.CommonConfiguration/obj
+/Worthwhile.JarSync.Communication.Azure/bin
+/Worthwhile.JarSync.Communication.Azure/obj
+/Worthwhile.JarSync.Console/bin
+/Worthwhile.JarSync.Console/obj
+/Worthwhile.JarSync.Core/bin
+/Worthwhile.JarSync.Core/obj
+/Worthwhile.JarSync.WindowsService/bin
+/Worthwhile.JarSync.WindowsService/obj
+/Worthwhile.JarSync.WindowsService/Properties/PublishProfiles
+/Worthwhile.JarSync.Console/Properties/PublishProfiles
+/Worthwhile.JarSync.Console/Worthwhile.JarSync.Console.csproj.user
