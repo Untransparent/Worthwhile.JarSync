@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DevFileCopy": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "UNTRANSPARENT_ENV": "DEV"
+      }
+    }
+  }
+}
