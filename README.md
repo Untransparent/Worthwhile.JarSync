@@ -30,7 +30,21 @@ To submit a pull request, you should **first [fork](https://docs.github.com/en/f
 
 ## Package References
 
-The utility depends on Serilog and several .NET Core 8 NuGet packages
+The utility depends on Serilog and several .NET Core 8 NuGet packages:
+
+	Microsoft.Extensions.Configuration
+	Microsoft.Extensions.Logging
+	Microsoft.Extensions.Configuration.EnvironmentVariables
+	Microsoft.Extensions.Configuration.FileExtensions
+	Microsoft.Extensions.Configuration.Json
+	Microsoft.Extensions.Logging.Console
+	Serilog.Extensions.Hosting
+	Serilog.Settings.Configuration
+	Serilog.Sinks.Console
+	Serilog.Sinks.File
+	Azure.Communication.Email
+	Microsoft.Extensions.Hosting.WindowsServices
+
 
 ## Uninstall service
 - sc.exe delete "Worthwhile.JarSync"
