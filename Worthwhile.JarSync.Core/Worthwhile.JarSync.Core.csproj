@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <FileVersion>2.2.0.0</FileVersion>
+    <AssemblyVersion>2.2.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Worthwhile.JarSync.Common.EmailService.Interfaces\Worthwhile.JarSync.Common.EmailService.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Interfaces\IJarSyncOperationMediator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Interfaces\IJarTree.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Interfaces\IJarSyncOperationManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Logging\ConcurrentEventLogger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Source\JarItemSyncProcessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Source\JarSyncProcessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
